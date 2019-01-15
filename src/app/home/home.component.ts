@@ -14,7 +14,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.recipeService.getAll().subscribe( data => {
-      console.log(data);
       this.recipes = data;
     });
   }

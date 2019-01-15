@@ -1,3 +1,29 @@
-<p>
-  recepies works!
-</p>
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Recipe</th>
+        <th scope="col">For</th>
+        <th scope="col">Type</th>
+        <th scope="col">Time</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let recipe of recipes">
+        <td>{{ recipe.name }}</td>
+        <td>{{ recipe.for }}</td>
+        <td>{{ recipe.type }}</td>
+        <td>{{ recipe.time }}</td>
+        <td>
+          <button type="button" class="btn btn-outline-primary far fa-edit"></button>
+        </td>
+        <td>
+          <button type="button" class="btn btn-outline-danger far fa-trash-alt"></button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
