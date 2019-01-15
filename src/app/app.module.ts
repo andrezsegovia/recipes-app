@@ -7,22 +7,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { RecepiesComponent } from './recepies/recepies.component';
 
 // Services
 import { RecipeService } from './shared/services/recipe.service';
+
+// Modules
+import { RecipesModule } from './shared/recipes/recipes.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    RecepiesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RecipesModule
   ],
   providers: [RecipeService],
   bootstrap: [AppComponent]

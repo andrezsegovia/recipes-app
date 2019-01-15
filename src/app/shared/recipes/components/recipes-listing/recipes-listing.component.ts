@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { Recipe } from '../domain/recipe';
-import { RecipeService } from '../shared/services/recipe.service';
+import { Recipe } from 'src/app/domain/recipe';
+import { RecipeService } from 'src/app/shared/services/recipe.service';
 
 @Component({
-  selector: 'app-recepies',
-  templateUrl: './recepies.component.html',
+  selector: 'app-recipes-listing',
+  templateUrl: './recipes-listing.component.html',
   styles: []
 })
-export class RecepiesComponent implements OnInit {
+export class RecipesListingComponent implements OnInit {
 
   recipes: Recipe[];
   constructor(private recipeService: RecipeService ) { }
