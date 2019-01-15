@@ -1,0 +1,21 @@
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Recipe</th>
+        <th scope="col">Next Day</th>
+        <th scope="col">Last Day</th>
+        <th scope="col">Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let recipe of recipes">
+        <td>{{ recipe.name }}</td>
+        <td>{{ recipe.nextDay }}</td>
+        <td>{{ recipe.lastDay }}</td>
+        <td>{{ recipe.time }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
