@@ -1,6 +1,7 @@
 export interface Recipe {
+  id: Number;
   name: string;
   nextDay: Date;
   lastDay: Date;
-  time: number;
+  time: Number;
 }
