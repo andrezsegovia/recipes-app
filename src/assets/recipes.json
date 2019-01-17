@@ -1,38 +1,47 @@
-[
-  {
-    "name": "Recipe One",
-    "nextDay": "2012-04-23",
-    "lastDay": "2011-04-23",
-    "time": 60
-  },
-  {
-    "name": "Recipe Two",
-    "nextDay": "2012-04-23",
-    "lastDay": "2011-04-23",
-    "time": 60
-  },
-  {
-    "name": "Recipe Three",
-    "nextDay": "2012-04-23",
-    "lastDay": "2011-04-23",
-    "time": 60
-  },
-  {
-    "name": "Recipe Four",
-    "nextDay": "2012-04-23",
-    "lastDay": "2011-04-23",
-    "time": 60
-  },
-  {
-    "name": "Recipe Five",
-    "nextDay": "2012-04-23",
-    "lastDay": "2011-04-23",
-    "time": 60
-  },
-  {
-    "name": "Recipe Six",
-    "nextDay": "2012-04-23",
-    "lastDay": "2011-04-23",
-    "time": 60
-  }
-]
+{
+  "recipes":
+  [
+    {
+      "id": 1,
+      "name": "Recipe One",
+      "nextDay": "2012-04-23",
+      "lastDay": "2011-04-23",
+      "time": 60
+    },
+    {
+      "id": 2,
+      "name": "Recipe Two",
+      "nextDay": "2012-04-23",
+      "lastDay": "2011-04-23",
+      "time": 60
+    },
+    {
+      "id": 3,
+      "name": "Recipe Three",
+      "nextDay": "2012-04-23",
+      "lastDay": "2011-04-23",
+      "time": 60
+    },
+    {
+      "id": 4,
+      "name": "Recipe Four",
+      "nextDay": "2012-04-23",
+      "lastDay": "2011-04-23",
+      "time": 60
+    },
+    {
+      "id": 5,
+      "name": "Recipe Five",
+      "nextDay": "2012-04-23",
+      "lastDay": "2011-04-23",
+      "time": 60
+    },
+    {
+      "id": 6,
+      "name": "Recipe Six",
+      "nextDay": "2012-04-23",
+      "lastDay": "2011-04-23",
+      "time": 60
+    }
+  ]
+}
