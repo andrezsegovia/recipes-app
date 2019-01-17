@@ -17,10 +17,12 @@
         <td>{{ recipe.type }}</td>
         <td>{{ recipe.time }}</td>
         <td>
-          <button type="button" class="btn btn-outline-primary far fa-edit"></button>
+          <button type="button" (click)="edit(recipe)"
+            class="btn btn-outline-primary far fa-edit"></button>
         </td>
         <td>
-          <button type="button" class="btn btn-outline-danger far fa-trash-alt"></button>
+          <button type="button" (click)="create()"
+            class="btn btn-outline-danger far fa-trash-alt"></button>
         </td>
       </tr>
     </tbody>
