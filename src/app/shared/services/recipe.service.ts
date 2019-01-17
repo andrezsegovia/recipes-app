@@ -22,9 +22,12 @@ export class RecipeService {
               recipe = {
                 id: element['id'],
                 name: element['name'],
-                nextDay: element['nextDay'],
-                lastDay: element['lastDay'],
-                time: element['time']
+                for: element['for'],
+                type: element['type'],
+                ingredients: element['ingredients'],
+                time: element['time'],
+                steps: element['steps'],
+                cookHistory: element['cookHistory']
               };
             }
           });

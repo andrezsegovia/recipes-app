@@ -4,44 +4,167 @@
     {
       "id": 1,
       "name": "Recipe One",
-      "nextDay": "2012-04-23",
-      "lastDay": "2011-04-23",
-      "time": 60
+      "for": "Lunch",
+      "type": "Salad",
+      "ingredients": [
+        {
+          "name": "Ingredient 1",
+          "unit": "grams",
+          "amount": 100
+        },
+        {
+          "name": "Ingredient 2",
+          "unit": "liters",
+          "amount": 1
+        },
+        {
+          "name": "Ingredient 3",
+          "unit": "spoons",
+          "amount": 2
+        }
+      ],
+      "time": 75,
+      "steps": [
+        {
+          "order": 1,
+          "name": "Step One",
+          "description": "Consequat sint sint amet adipisicing exercitation aliqua."
+        },
+        {
+          "order": 3,
+          "name": "Step Three",
+          "description": "Ut irure ipsum non fugiat culpa aute irure pariatur pariatur exercitation sint cupidatat ipsum elit."
+        },
+        {
+          "order": 2,
+          "name": "Step Two",
+          "description": "Excepteur et consectetur dolore excepteur esse id ex."
+        }
+      ],
+      "cookHistory": [
+        {
+          "date": "23/04/2018",
+          "note": "Excepteur culpa sunt consequat laboris excepteur sit anim non pariatur consectetur."
+        },
+        {
+          "date": "11/06/2018",
+          "note": "Excepteur culpa sunt consequat laboris excepteur sit anim non pariatur consectetur."
+        },
+        {
+          "date": "01/01/2019",
+          "note": "Excepteur culpa sunt consequat laboris excepteur sit anim non pariatur consectetur."
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Recipe Two",
-      "nextDay": "2012-04-23",
-      "lastDay": "2011-04-23",
-      "time": 60
+      "for": "Breakfast",
+      "type": "Fruit",
+      "ingredients": [
+        {
+          "name": "Ingredient 1",
+          "unit": "grams",
+          "amount": 100
+        },
+        {
+          "name": "Ingredient 2",
+          "unit": "liters",
+          "amount": 1
+        },
+        {
+          "name": "Ingredient 3",
+          "unit": "spoons",
+          "amount": 2
+        }
+      ],
+      "time": 80,
+      "steps": [
+        {
+          "order": 1,
+          "name": "Step One",
+          "description": "Consequat sint sint amet adipisicing exercitation aliqua."
+        },
+        {
+          "order": 3,
+          "name": "Step Three",
+          "description": "Ut irure ipsum non fugiat culpa aute irure pariatur pariatur exercitation sint cupidatat ipsum elit."
+        },
+        {
+          "order": 2,
+          "name": "Step Two",
+          "description": "Excepteur et consectetur dolore excepteur esse id ex."
+        }
+      ],
+      "cookHistory": [
+        {
+          "date": "23/04/2018",
+          "note": "Excepteur culpa sunt consequat laboris excepteur sit anim non pariatur consectetur."
+        },
+        {
+          "date": "11/06/2018",
+          "note": "Excepteur culpa sunt consequat laboris excepteur sit anim non pariatur consectetur."
+        },
+        {
+          "date": "01/01/2019",
+          "note": "Excepteur culpa sunt consequat laboris excepteur sit anim non pariatur consectetur."
+        }
+      ]
     },
     {
       "id": 3,
       "name": "Recipe Three",
-      "nextDay": "2012-04-23",
-      "lastDay": "2011-04-23",
-      "time": 60
-    },
-    {
-      "id": 4,
-      "name": "Recipe Four",
-      "nextDay": "2012-04-23",
-      "lastDay": "2011-04-23",
-      "time": 60
-    },
-    {
-      "id": 5,
-      "name": "Recipe Five",
-      "nextDay": "2012-04-23",
-      "lastDay": "2011-04-23",
-      "time": 60
-    },
-    {
-      "id": 6,
-      "name": "Recipe Six",
-      "nextDay": "2012-04-23",
-      "lastDay": "2011-04-23",
-      "time": 60
+      "for": "dinner",
+      "type": "Meat",
+      "ingredients": [
+        {
+          "name": "Ingredient 1",
+          "unit": "grams",
+          "amount": 100
+        },
+        {
+          "name": "Ingredient 2",
+          "unit": "liters",
+          "amount": 1
+        },
+        {
+          "name": "Ingredient 3",
+          "unit": "spoons",
+          "amount": 2
+        }
+      ],
+      "time": 35,
+      "steps": [
+        {
+          "order": 1,
+          "name": "Step One",
+          "description": "Consequat sint sint amet adipisicing exercitation aliqua."
+        },
+        {
+          "order": 3,
+          "name": "Step Three",
+          "description": "Ut irure ipsum non fugiat culpa aute irure pariatur pariatur exercitation sint cupidatat ipsum elit."
+        },
+        {
+          "order": 2,
+          "name": "Step Two",
+          "description": "Excepteur et consectetur dolore excepteur esse id ex."
+        }
+      ],
+      "cookHistory": [
+        {
+          "date": "23/04/2018",
+          "note": "Excepteur culpa sunt consequat laboris excepteur sit anim non pariatur consectetur."
+        },
+        {
+          "date": "11/06/2018",
+          "note": "Excepteur culpa sunt consequat laboris excepteur sit anim non pariatur consectetur."
+        },
+        {
+          "date": "01/01/2019",
+          "note": "Excepteur culpa sunt consequat laboris excepteur sit anim non pariatur consectetur."
+        }
+      ]
     }
   ]
 }

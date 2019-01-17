@@ -1,3 +1,79 @@
-<p>
-  recipes-edit works!
-</p>
+<div class="container mt-5">
+  <form *ngIf="recipe">
+    <div class="form-group">
+      <label for="recipe-name">Name</label>
+      <input type="text" class="form-control" [value]="recipe.name"
+        id="recipe-name" placeholder="Enter Recipe Name">
+    </div>
+    <div class="form-group">
+      <label for="recipe-name">For</label>
+      <input type="text" class="form-control" [value]="recipe.for"
+        id="recipe-name" placeholder="Enter Recipe For">
+    </div>
+    <div class="form-group">
+      <label for="recipe-name">Type</label>
+      <input type="text" class="form-control" [value]="recipe.type"
+        id="recipe-name" placeholder="Enter Recipe Type">
+    </div>
+    <div class="form-group">
+      <label for="recipe-time">Time</label>
+      <input type="text" class="form-control" [value]="recipe.time"
+        id="recipe-time" placeholder="Enter Recipe Time">
+    </div>
+    <div class="form-group mt-5">
+      <label for="recipe-name">Ingredients</label>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Unit</th>
+              <th scope="col">Amount</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let ingredient of recipe.ingredients">
+              <td>{{ ingredient.name }}</td>
+              <td>{{ ingredient.unit }}</td>
+              <td>{{ ingredient.amount }}</td>
+              <td>
+                <button type="button" class="btn btn-outline-primary far fa-edit"></button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-outline-danger far fa-trash-alt"></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <div class="form-group mt-5">
+      <label for="recipe-name">Steps</label>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Order</th>
+              <th scope="col">Name</th>
+              <th scope="col">Description</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let step of recipe.steps">
+              <td>{{ step.order }}</td>
+              <td>{{ step.name }}</td>
+              <td>{{ step.description }}</td>
+              <td>
+                <button type="button" class="btn btn-outline-primary far fa-edit"></button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-outline-danger far fa-trash-alt"></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <button type="submit" class="btn btn-primary mt-5">Submit</button>
+  </form>
+</div>
